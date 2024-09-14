@@ -28,8 +28,14 @@ body {
 
 .logo img {
     height: 40px;
+    margin-left: 20px;
 }
 
+.menu-icon h1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
 .nav-links {
     list-style-type: none;
     display: flex;
