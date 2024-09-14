@@ -1,0 +1,32 @@
+Aluno: Allysson, Sonia
+
+
+ Tema:
+Site de Noticias - Sobre depedencia quimica
+
+Personas
+
+Ana, a Estudante Universitária:
+
+Descrição: Ana é uma estudante universitária de 20 anos, cursando Comunicação Social. Ela é apaixonada por jornalismo e está sempre em busca de informações atualizadas sobre política, cultura e entretenimento.
+Motivação: Ana visita o site de notícias regularmente para se manter informada sobre eventos atuais que possam ser relevantes para seus estudos e para alimentar sua paixão pelo jornalismo.
+Comportamento: Ana acessa o site principalmente pelo laptop ou celular, compartilha notícias interessantes em suas redes sociais e participa ativamente de discussões nos comentários.
+
+Carlos, o Profissional de Marketing:
+
+Descrição: Carlos é um profissional de marketing de 35 anos que trabalha em uma agência de publicidade. Ele está sempre buscando inspiração e insights para suas campanhas e estratégias de marketing.
+Motivação: Carlos visita o site de notícias regularmente para se manter atualizado sobre tendências de mercado, novidades tecnológicas e análises econômicas que possam influenciar seu trabalho.
+Comportamento: Carlos acessa o site principalmente pelo computador durante o horário de trabalho, lê artigos relacionados a negócios, tecnologia e marketing.
+
+Maria, a Aposentada Ativa:
+
+Descrição: Maria é uma aposentada de 65 anos que adora se manter informada sobre o que está acontecendo no mundo ao seu redor. Ela gosta de acompanhar notícias sobre política, saúde, cultura e estilo de vida.
+Motivação: Maria visita o site de notícias regularmente para se manter atualizada sobre eventos locais, nacionais e internacionais que possam afetar sua comunidade e seu estilo de vida.
+Comportamento: Maria acessa o site principalmente pelo tablet ou smartphone, lê uma variedade de seções, como política, saúde, cultura e estilo de vida, compartilha notícias interessantes com seus amigos e familiares por facebook.
+
+Funcionalide do site:
+  A principal função do site de notícias é manter o leitor bem informado, por isso os jornalistas devem sempre estar em busca de novas informações, de forma a repassá-las em tempo real   para os leitores. 
+
+Puplico Alvo:
+ Imformar pessoas é familiares sobre a importancia sobre a imdepencia quimica no brazil
+   

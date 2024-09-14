@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas News</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script_carrosel.js"></script>
+   
+</head>
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="./index.html"><h2>Novas News</h2></a></li>
+            <li><a href="./esporte.html">Esportes</a></li>
+            <li><a href="novas_noticias.html">Novas Noticias</a></li>
+            <li><a href="./receber_informaçao.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="conteiner">
+
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/foto_03.jpg" alt="A dependência Química">
+                    <div class="carousel-caption">
+                        <h3>A dependência Química</h3>
+                        <p>A dependência química, também conhecida como dependência de drogas ou abuso de substâncias, refere-se à compulsão de usar uma substância específica, seja ela legal ou ilegal, apesar das consequências negativas para a saúde física, mental, social ou emocional da pessoa.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img_policia.png" alt="Notícia 2">
+                    <div class="carousel-caption">
+                        <h3>Poder Público deve indenizar famílias de vítimas de tiroteios em operações policiais, define STF</h3>
+                        <p>Indenização não será devida se governos conseguirem provar que não houve participação de agentes de segurança em mortes ou ferimentos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/foto_esporte02.jpg" alt="Notícia 3">
+                    <div class="carousel-caption">
+                        <h3>Olimpíadas 2024: Atletas brasileiros garantem vagas em várias modalidades!</h3>
+                        <p>Os atletas brasileiros estão brilhando nas qualificatórias para as Olimpíadas, assegurando suas vagas em diversas modalidades.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+        
+        <div class="conteiner-item">
+            
+            <br>
+            <img src="img/foto_04.png" alt="">
+            <p>Existem várias substâncias que podem levar à dependência, incluindo álcool, tabaco, maconha, cocaína, heroína, metanfetamina, opioides prescritos, entre outras.</p>
+            <p> A dependência química pode afetar qualquer pessoa, independentemente de sua idade, gênero, raça ou condição socioeconômica.</p>
+            <p>Os sinais incluem aumento da tolerância, sintomas de abstinência, negligência de responsabilidades e problemas de saúde física e mental. O tratamento geralmente envolve uma abordagem multidisciplinar, incluindo terapia individual ou em grupo, intervenção médica e apoio social.</p>
+            <a href="">LER MAIS</a>
+        </div>
+    </header>
+    
+    <header class="conteiner">
+            <div class="conteiner_pequeno_interno">
+                <img src="./img/imagem_novo_ensino_medio.png" alt="">
+                <p>Educação</p>
+                <h3>Novo Ensino Médio: o que pode mudar com texto aprovado na Câmara</h3>
+            </div>
+    </header>
+    <div class="weather-widget">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/n40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
+    </div>
+    
+    <script>
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){
+                js=d.createElement(s);js.id=id;
+                js.src='https://weatherwidget.io/js/widget.min.js';
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+        }(document,'script','weatherwidget-io-js');
+    </script>
+    
+    <div class="sidebar">
+        <div class="weather-widget">
+            <a class="weatherwidget-io" href="https://forecast7.com/pt/n14d09n46d37/posse/" data-label_1="POSSE" data-label_2="WEATHER" data-theme="original" >POSSE WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+        </div>
+    </div>
+
+    
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre Nós</h3>
+                <p>Somos uma equipe dedicada a trazer as últimas notícias com precisão e rapidez.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="./receber_informaçao.html">Contato/a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Siga-nos</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.whatsapp.com/"><img src="./img/whatsapp.png" alt="Whatsapp"></a>
+                    <a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 New News | Todos os direitos reservados.
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
