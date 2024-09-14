@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #E51C23; /* Cor vermelha principal do G1 */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #FFC107; /* Amarelo para hover, similar ao G1 */
+}
+
+.nav-links li a.active {
+    border-bottom: 2px solid #FFC107;
+}
+
+/* Estilo da Barra de Pesquisa */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: auto;
+    margin-top: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: auto; /* Coloca a barra de pesquisa à esquerda */
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.search-bar input::placeholder {
+    color: #999;
+}
+
+/* Media Query para dispositivos menores */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Oculta o menu na visualização inicial */
+        flex-direction: column;
+        background-color: #E51C23;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex; /* Mostra o menu ao clicar no ícone */
+    }
+
+    .menu-icon {
+        display: block; /* Mostra o ícone de menu em dispositivos pequenos */
+    }
+
+    .search-bar {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+}
+
+
+
