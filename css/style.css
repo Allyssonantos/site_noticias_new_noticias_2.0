@@ -56,7 +56,7 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #FFC107; /* Amarelo para hover, similar ao G1 */
+    color: #FFC107; /* Amarelo para hover, mudar de cor qundo passar o mause */
 }
 
 .nav-links li a.active {
@@ -224,7 +224,8 @@ body {
 
 /* Coluna de notícias principais */
 .main-news {
-    flex: 3;
+    flex: 3 ;
+    background-color: #ffffff;
 }
 
 .main-news img{
@@ -233,27 +234,35 @@ body {
     
 }
 
+.main-news h2 {
+    font-size: 2em;
+    margin-top: 0;
+    color: #d01a20;
+}
+
 /* Coluna de barra lateral */
-.sidebar {
-    flex: 1;
-    background-color: #f8f9fa;
+.previsao_tempo {
+    flex: 3;
+    background-color: #ffffff;
     padding: 10px;
 }
 
-#weather {
-    background-color: #f8f9fa;
-    padding: 20px;
+#previsao_tempo_lateral {
+    background-color:  #ffffff;
+    padding: 20%;
     border-radius: 8px;
     text-align: center;
 }
 
-#temperature {
-    font-size: 24px;
-    font-weight: bold;
+#previsao_tempo_lateral a{
+    color: #E51C23;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px 0;
 }
 
-#description {
-    font-size: 18px;
+#previsao_tempo_lateral a:hover {
+    color: #FFC107; /* Amarelo para hover, mudar de cor qundo passar o mause */
 }
 
 
@@ -267,4 +276,22 @@ body {
     .main-news, .sidebar {
         flex: 1;
     }
+}
+
+/* Linha horizontal*/
+.custom-line {
+    border: none;            /* Remove a borda padrão */
+    height: 2px;             /* Define a altura da linha */
+    background-color: #e0e0e0;  /* Cor da linha */
+    margin: 20px 0;          /* Espaçamento acima e abaixo da linha */
+}
+
+/*linha vertical*/
+
+.vertical-line {
+    border-left: 2px solid #e0e0e0; /* Define a largura da linha */
+    height: 90%;            /* Define a altura da linha */
+    margin: 10px;          /* Espaçamento à esquerda e direita da linha */
+    
+
 }
