@@ -95,36 +95,7 @@ body {
     color: #999;
 }
 
-/* Media Query para dispositivos menores */
-@media screen and (max-width: 768px) {
-    .nav-links {
-        display: none; /* Oculta o menu na visualização inicial */
-        flex-direction: column;
-        background-color: #E51C23;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-    }
 
-    .nav-links li {
-        margin: 10px 0;
-    }
-
-    .nav-links.active {
-        display: flex; /* Mostra o menu ao clicar no ícone */
-    }
-
-    .menu-icon {
-        display: block; /* Mostra o ícone de menu em dispositivos pequenos */
-    }
-
-    .search-bar {
-        flex-grow: 1;
-        margin-right: 10px;
-    }
-}
 
 .news-feed {
     display: flex;
@@ -151,6 +122,12 @@ body {
     overflow: hidden;
 }
 
+/*.carousel-item{
+    margin-bottom: 0;  Ajuste o valor para o quanto você deseja reduzir 
+    padding-bottom: ;  Garanta que não tenha padding inferior 
+}
+*/
+
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -165,6 +142,8 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
+
+
 .carousel-item img {
     margin-top: 100px;
     width: 100%;
@@ -173,7 +152,6 @@ body {
 
 .carousel h2 {
     font-size: 1.5em;
-    margin: px 0;
     font-size: 50px;
     color: #d01a20;
 }
@@ -265,19 +243,6 @@ body {
     color: #FFC107; /* Amarelo para hover, mudar de cor qundo passar o mause */
 }
 
-
-
-/* Para responsividade */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .main-news, .sidebar {
-        flex: 1;
-    }
-}
-
 /* Linha horizontal*/
 .custom-line {
     border: none;            /* Remove a borda padrão */
@@ -295,3 +260,114 @@ body {
     
 
 }
+
+footer {
+    background-color: #E51C23;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section a:hover {
+    color: #FFC107; /* Amarelo para hover, mudar de cor qundo passar o mause */
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #FFC107; /* Amarelo para hover, mudar de cor qundo passar o mause */
+}
+
+.footer-bottom {
+    font-size: 10px;
+}
+
+           /* Responsividade de todo o site */
+/* container */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main-news, .sidebar {
+        flex: 1;
+    }
+}
+
+/*Responsividade do footer */
+@media (max-width: 768px) {
+    .footer-section {
+        width: 100%;
+    }
+}
+
+/* navBar */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Oculta o menu na visualização inicial */
+        flex-direction: column;
+        background-color: #E51C23;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex; /* Mostra o menu ao clicar no ícone */
+    }
+
+    .menu-icon {
+        display: block; /* Mostra o ícone de menu em dispositivos pequenos */
+    }
+
+    .search-bar {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
